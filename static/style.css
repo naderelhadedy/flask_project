@@ -1,0 +1,187 @@
+body {
+    font-family: "Courier New", monospace;
+    color: darkblue;
+    background-color: floralwhite;
+    }
+
+.floated_left {
+    float: left;
+    margin: 30px;
+    }
+
+#three_buttons {
+    margin-top: 30px;
+    margin-left: 300px;
+    }
+
+#two_buttons {
+    margin-top: 200px;
+    }
+
+#two_buttons > a {
+    margin: 100px;
+    }
+
+.buttons {
+    padding: 15px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 14pt;
+    color: pink;
+    background-color: black;
+    border-radius: 20px;
+    }
+
+.buttons:hover {
+    background: #36454F;
+    border-style: none;
+    cursor: pointer;
+    }
+
+.list_items {
+    list-style: none;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: monospace;
+    color: #36454F;
+    }
+
+#citizen_info {
+    font-size: 24pt;
+    font-family: monospace;
+    color: #36454F;
+    margin-top: 120px;
+    }
+
+#citizens_list {
+    margin: 30px;
+    }
+
+#get_info_form {
+    margin-top: 80px;
+    margin-bottom: 200px;
+    }
+
+#password_input {
+    font-size: 20pt;
+    border-radius: 15px;
+    padding-left: 20px;
+    border-color: darkblue;
+    height: 40px;
+    font-family: monospace;
+    }
+
+#enter_button {
+    height: 45px;
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 14pt;
+    color: pink;
+    background-color: black;
+    border-radius: 20px;
+    }
+
+#enter_button:hover {
+    background: #36454F;
+    border-style: none;
+    cursor: pointer;
+    }
+
+.alert {
+    color: red;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    font-size: 40pt;
+    }
+
+span {
+    color: #FF5733;
+    }
+
+#add_citizen_form {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+    margin-left: 35%;
+    font-size: 16pt;
+    font-family: monospace;
+    color: #36454F;
+    }
+
+#add_citizen_button {
+    height: 45px;
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 14pt;
+    color: pink;
+    margin-top: 20px;
+    margin-left: 17%;
+    background-color: black;
+    border-radius: 20px;
+    }
+
+#add_citizen_button:hover {
+    background: #36454F;
+    border-style: none;
+    cursor: pointer;
+    }
+
+#new_citizen_img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    }
+
+#new_citizen_header {
+    margin-top: 30px;
+    }
+
+.inputs {
+    font-size: 15pt;
+    color: grey;
+    }
+
+#hr_line {
+    width: 15%;
+    margin: 15px;
+    visibility: hidden;
+    }
+
+#delete_button {
+    padding: 3px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 10pt;
+    color: pink;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 20px;
+    }
+
+#delete_button:hover {
+    background: #36454F;
+    border-style: none;
+    font-size: 10pt;
+    padding: 5px;
+    cursor: pointer;
+    }
+
+#print_button {
+    padding: 10px;
+    width: 300px;
+    font-weight: bold;
+    font-size: 20pt;
+    color: pink;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 20px;
+    }
+
+#print_button:hover {
+    background: #36454F;
+    border-style: none;
+    font-size: 20pt;
+    padding: 10px;
+    cursor: pointer;
+    }

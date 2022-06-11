@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}View All Citizens{% endblock %}
+
+{% block content %}
+    <h1>All citizens stored</h1>
+    <ul id="citizens_list">
+        {% for citizen in citizens %}
+            <li class="list_items">
+                {{ citizen }}
+                <a href="{{ url_for('delete_citizen', cit_id=citizen.citizen_id) }}"
+                   onclick="alert_f();">
+                    <button id="delete_button">Delete</button>
+                </a>
+            </li>
+            <hr id="hr_line">
+        {% endfor %}
+    </ul>
+    <div>
+        <p>
+            <a href="/">
+                <button class="buttons">Back</button>
+            </a>
+        </p>
+    </div>
+
+    <script>
+        function alert_f() {
+            alert("Citizen is being deleted now!");
+        }
+    </script>
+{% endblock %}

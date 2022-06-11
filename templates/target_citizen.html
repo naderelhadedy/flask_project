@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}Target Citizen{% endblock %}
+
+{% block content %}
+    <h1>Citizen Information</h1>
+    <p id="citizen_info">
+        {{ target_citizen }}
+        <br>
+        <a href="{{ url_for('get_info') }}" onclick="print_cer_f()">
+            <button id="print_button">Print Birth Certificate</button>
+        </a>
+    </p>
+    <div id="two_buttons">
+        <a href="{{ url_for('get_info') }}">
+            <button class="buttons">Back</button>
+        </a>
+        <a href="{{ url_for('index') }}">
+            <button class="buttons">Home</button>
+        </a>
+    </div>
+
+    <script>
+        function print_cer_f() {
+            alert("Certificate is being printed now!");
+        }
+    </script>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Citizen Stored{% endblock %}
+
+{% block content %}
+    <h1 id="new_citizen_header">
+        <span>{{ citizen_fullname }}</span> is added successfully and got Id <span>{{ citizen_id }}</span>
+    </h1>
+    <img src="/static/new_citizen.jpg" id="new_citizen_img">
+    <p>
+        <a href="{{ url_for('index') }}">
+            <button class="buttons">Home</button>
+        </a>
+    </p>
+{% endblock %}

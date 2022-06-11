@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Get Citizen Info{% endblock %}
+
+{% block content %}
+    <h1>Get Citizen Info</h1>
+    <form method="post" id="get_info_form">
+        <input id="password_input" type="password" name="password" placeholder="Enter citizen Id">
+        <button type="submit" id="enter_button">Enter</button>
+    </form>
+    <p>
+        <a href="{{ url_for('index') }}">
+            <button class="buttons">Back</button>
+        </a>
+    </p>
+{% endblock %}
